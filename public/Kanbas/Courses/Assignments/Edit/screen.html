@@ -1,135 +1,142 @@
-<table>
-    <tbody>
-      <tr>
-        <td valign="top"> 
-            <ul>
-                <li><a href="/Kanbas/Account/Profile/screen.html">Account</a></li>
-                <li><a href="/Kanbas/Dashboard/screen.html">Dashboard</a></li>
-                <li><a href="/Kanbas/Courses/Home/screen.html">Courses</a></li>
-                <li><a href="/Kanbas/Calendar/index.html">Calendar</a></li>
-                <li><a href="/Kanbas/Inbox/index.html">Inbox</a></li>
-                <li><a href=#>History</a></li>
-                <li><a href=#>Studio</a></li>
-                <li><a href=#>Commons</a></li>
-                <li><a href=#>Help</a></li>
-            </ul>
-        </td>
-        <td valign="top"> 
-            <ul>
-                <li><a href="/Kanbas/Courses/Home/screen.html">Home</a></li>
-                <li><a href="/Kanbas/Courses/Modules/screen.html">Modules</a></li>
-                <li><a href="/Kanbas/Courses/Piazza/index.html">Piazza</a></li>
-                <li><a href=#>Zoom Meetings</a></li>
-                <li><a href="/Kanbas/Courses/Assignments/screen.html">Assignments</a></li>
-                <li><a href=#>Quizzes</a></li>
-                <li><a href="/Kanbas/Courses/Grades/screen.html">Grades</a></li>
-                <li><a href=#>People</a></li>
-                <li><a href=#>Ponopto Video</a></li>
-                <li><a href=#>Discussions</a></li>
-                <li><a href=#>Announcements</a></li>
-                <li><a href=#>Pages</a></li>
-                <li><a href=#>Files</a></li>
-                <li><a href=#>Rubrics</a></li>
-                <li><a href=#>Outcomes</a></li>
-                <li><a href=#>Collaborations</a></li>
-                <li><a href=#>Syllabus</a></li>
-                <li><a href=#>Settings</a></li>
-            </ul>
-        </td>
-        <td valign="top"> 
-            <form id="text-fields">
-                <select id="publish-all">
-                    <option selected value="SpeedGrader">SpeedGrader</option>
-                </select>
-            </form>
-            <hr>
-            
-            <h2>Assignment Name</h2>
-            
-            <form id="text-fields">
-                <label for="text-fields-a-name"></label>
-                <input type="text" id="text-fields-a-name" value="A1 - ENV + HTML"/>
-            </form>
-            
-            <form id="textarea">
-                <textarea cols="20" rows="3">This is the assignment description.</textarea>
-            </form>
-            
-            <form id="text-fields">
-                <label>Points</label><br/>
-                <input type="text" value="100"/>
-            </form>
-            
-            <form id="text-fields">
-                <label>Assignment Group</label><br/>
-                <select id="publish-all">
-                    <option selected value="ASSIGNMENTS">ASSIGNMENTS</option>
-                </select>
-            </form>
-            
-            <form id="text-fields">
-                <label>Display Grade as</label><br/>
-                <select id="publish-all">
-                    <option selected value="Percentage">Percentage</option>
-                </select>
-            </form>
-            
-            <form id="text-fields">
-                <label>Submission Type</label><br/>
-                <select id="publish-all">
-                    <option selected value="Online">Online</option>
-                </select>
-            </form>
-            
-            <label>Online Entry Options</label>
-            <br/>
-            <input type="checkbox"/>
-            <label for="chkbox-txt">Text Entry</label>
-            <br/>
-            <input type="checkbox"/>
-            <label for="chkbox-url">Website URL</label> 
-            <br/>
-            <input type="checkbox"/>
-            <label for="chkbox-rec">Media Recordings</label> 
-            <br/>
-            <input type="checkbox"/>
-            <label for="chkbox-ann">Student Annotation</label> 
-            <br/>
-            <input type="checkbox"/>
-            <label for="chkbox-file">File Uploads</label> 
-            <br/>
-            <br/>
-            
-            <label>Assign</label>
-            <form id="text-fields">
-                <label>Assign to</label><br/>
-                <input type="text" value="Everyone"/>
-            </form>
-            
-            <form>
-                <label for="text-fields-due"> Due </label><br/>
-                <input type="date" id="text-fields-due" value="2021-01-01"/>
-            </form>
-            
-            <form>
-                <label for="text-fields-from"> Available From </label><br/>
-                <input type="date" id="text-fields-from" value="2021-01-01"/>
-            </form>
-            
-            <form>
-                <label for="text-fields-until"> Until </label><br/>
-                <input type="date" id="text-fields-until" value="2021-01-01"/>
-            </form>
-            
-            <a href="/Kanbas/Courses/Assignments/screen.html">
-                <button type="button">Cancel</button>
-            </a>
-            
-            <a href="/Kanbas/Courses/Assignments/screen.html">
-                <button type="button">Save</button>
-            </a>
-        </td> 
-      </tr>
-    </tbody>
-</table>
+<html>
+  <head>
+    <title>Actual page for editing assignments</title>
+  </head>
+  <body>
+    <table>
+        <tbody>
+        <tr>
+            <td valign="top"> 
+                <ul>
+                    <li><a href="/Kanbas/Account/Profile/screen.html">Account</a></li>
+                    <li><a href="/Kanbas/Dashboard/screen.html">Dashboard</a></li>
+                    <li><a href="/Kanbas/Courses/Home/screen.html">Courses</a></li>
+                    <li><a href="/Kanbas/Calendar/index.html">Calendar</a></li>
+                    <li><a href="/Kanbas/Inbox/index.html">Inbox</a></li>
+                    <li><a href=#>History</a></li>
+                    <li><a href=#>Studio</a></li>
+                    <li><a href=#>Commons</a></li>
+                    <li><a href=#>Help</a></li>
+                </ul>
+            </td>
+            <td valign="top"> 
+                <ul>
+                    <li><a href="/Kanbas/Courses/Home/screen.html">Home</a></li>
+                    <li><a href="/Kanbas/Courses/Modules/screen.html">Modules</a></li>
+                    <li><a href="/Kanbas/Courses/Piazza/index.html">Piazza</a></li>
+                    <li><a href=#>Zoom Meetings</a></li>
+                    <li><a href="/Kanbas/Courses/Assignments/screen.html">Assignments</a></li>
+                    <li><a href=#>Quizzes</a></li>
+                    <li><a href="/Kanbas/Courses/Grades/screen.html">Grades</a></li>
+                    <li><a href=#>People</a></li>
+                    <li><a href=#>Ponopto Video</a></li>
+                    <li><a href=#>Discussions</a></li>
+                    <li><a href=#>Announcements</a></li>
+                    <li><a href=#>Pages</a></li>
+                    <li><a href=#>Files</a></li>
+                    <li><a href=#>Rubrics</a></li>
+                    <li><a href=#>Outcomes</a></li>
+                    <li><a href=#>Collaborations</a></li>
+                    <li><a href=#>Syllabus</a></li>
+                    <li><a href=#>Settings</a></li>
+                </ul>
+            </td>
+            <td valign="top"> 
+                <form id="text-fields">
+                    <select id="publish-all">
+                        <option selected value="SpeedGrader">SpeedGrader</option>
+                    </select>
+                </form>
+                <hr>
+                
+                <h2>Assignment Name</h2>
+                
+                <form id="text-fields">
+                    <label for="text-fields-a-name"></label>
+                    <input type="text" id="text-fields-a-name" value="A1 - ENV + HTML"/>
+                </form>
+                
+                <form id="textarea">
+                    <textarea cols="20" rows="3">This is the assignment description.</textarea>
+                </form>
+                
+                <form id="text-fields">
+                    <label>Points</label><br/>
+                    <input type="text" value="100"/>
+                </form>
+                
+                <form id="text-fields">
+                    <label>Assignment Group</label><br/>
+                    <select id="publish-all">
+                        <option selected value="ASSIGNMENTS">ASSIGNMENTS</option>
+                    </select>
+                </form>
+                
+                <form id="text-fields">
+                    <label>Display Grade as</label><br/>
+                    <select id="publish-all">
+                        <option selected value="Percentage">Percentage</option>
+                    </select>
+                </form>
+                
+                <form id="text-fields">
+                    <label>Submission Type</label><br/>
+                    <select id="publish-all">
+                        <option selected value="Online">Online</option>
+                    </select>
+                </form>
+                
+                <label>Online Entry Options</label>
+                <br/>
+                <input type="checkbox"/>
+                <label for="chkbox-txt">Text Entry</label>
+                <br/>
+                <input type="checkbox"/>
+                <label for="chkbox-url">Website URL</label> 
+                <br/>
+                <input type="checkbox"/>
+                <label for="chkbox-rec">Media Recordings</label> 
+                <br/>
+                <input type="checkbox"/>
+                <label for="chkbox-ann">Student Annotation</label> 
+                <br/>
+                <input type="checkbox"/>
+                <label for="chkbox-file">File Uploads</label> 
+                <br/>
+                <br/>
+                
+                <label>Assign</label>
+                <form id="text-fields">
+                    <label>Assign to</label><br/>
+                    <input type="text" value="Everyone"/>
+                </form>
+                
+                <form>
+                    <label for="text-fields-due"> Due </label><br/>
+                    <input type="date" id="text-fields-due" value="2021-01-01"/>
+                </form>
+                
+                <form>
+                    <label for="text-fields-from"> Available From </label><br/>
+                    <input type="date" id="text-fields-from" value="2021-01-01"/>
+                </form>
+                
+                <form>
+                    <label for="text-fields-until"> Until </label><br/>
+                    <input type="date" id="text-fields-until" value="2021-01-01"/>
+                </form>
+                
+                <a href="/Kanbas/Courses/Assignments/screen.html">
+                    <button type="button">Cancel</button>
+                </a>
+                
+                <a href="/Kanbas/Courses/Assignments/screen.html">
+                    <button type="button">Save</button>
+                </a>
+            </td> 
+        </tr>
+        </tbody>
+    </table>
+  </body>
+</html>
   
