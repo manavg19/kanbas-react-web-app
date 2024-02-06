@@ -1,0 +1,51 @@
+.wd-navigation {
+    background-color: white;
+    list-style: none;
+    padding: 0px;
+    width: 125px;
+    margin: 0px;
+    margin-left: 20px;
+    position: fixed;
+    height: 100vh;
+    overflow: auto;
+  }
+  .wd-navigation li {
+    padding-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .wd-navigation li.wd-active {
+    border-left: 2px solid black;
+  }
+  .wd-navigation li.wd-active a {
+    color: black;
+  }
+  .wd-navigation a {
+    color: red;
+    text-decoration: none;
+  }
+
+.flex-container {
+    display: flex;
+}
+
+.navigation-column {
+    flex: 0 0 auto;
+    width: 80px;
+    overflow-y: auto; 
+}
+
+.navigation-column-2nd {
+  flex: 0 0 auto;
+  width: 150px;
+  overflow-y: auto; 
+}
+
+.content-column {
+    flex-grow: 1; 
+    overflow-y: auto; 
+}
+
+  
