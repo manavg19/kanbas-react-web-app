@@ -56,3 +56,7 @@ a[aria-expanded=false] .fa-times {
   padding-right: 15px;
   padding-left: 15px;
 }
+
+.full-width-input {
+  width: 35%;
+}
